@@ -1,0 +1,32 @@
+body{
+    font-family: Arail, sans-serif;
+    background: var(--color-bg2);
+
+}
+body[data-theme="t-ligth"]{
+    --color-bg: rgb(187, 187, 187);
+    --color-bg2: rgb(255, 255, 255);
+    --color-text: rgb(15,20,15);
+}
+body[data-theme="t-dark"]{
+    --color-bg: rgb(0, 0, 0);
+    --color-bg2: rgb(170, 170, 170);
+    --color-text: rgb(94, 94, 94);
+}
+.my-title{
+    color: rgb(78, 0, 129);
+}
+.my-field{
+    color: rgb(78, 0, 129);
+    background: rgb(112, 112, 112);
+    font-size: 20px;
+    padding: 1rem;
+    
+}
+.my-button{
+    color: black;
+    font-size: medium;
+    background: rgb(112, 112, 112);
+    border: none;
+    padding: 0.5rem;
+}
